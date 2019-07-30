@@ -25,13 +25,5 @@ def read_from_hash(hash, key) #correct
 end
 
 def update_counting_hash(hash, key)
-    new_hash = {}
-    hash.each do |key, item|
-    if !new_hash.include?(item)
-      new_hash[key] = 1
-    else
-      new_hash[key] += 1
-    end
-  end
-  return new_hash
+ 
 end
